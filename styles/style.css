@@ -11,7 +11,7 @@ body {
 
     min-width: 100dvw;
     min-height: 100dvh;
-    gap: 40px;
+    gap: 120px;
 
     overflow-x: hidden;
 }
@@ -84,7 +84,7 @@ main{
 
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 100px;
 }
 
 .action-section{
@@ -158,6 +158,10 @@ main{
     gap: 20px;
 
     padding: 30px;
+
+    background: whitesmoke;
+
+    border-radius: 1rem;
 }
 
 .extra-heros p{
@@ -266,5 +270,6 @@ main{
     padding: 10px 15px;
     border-radius: .25rem;
 
+    background: whitesmoke;
     border: 1px solid rgb(224, 216, 216);
 }
