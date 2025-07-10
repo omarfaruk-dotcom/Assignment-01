@@ -231,3 +231,40 @@ main{
 }
 
 
+.login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.login-left h1{
+    font-size: 50px;
+}
+
+.login-right form div,
+.login-right form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-right form{
+    gap: 20px;
+}
+
+.login-right form div label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.login-right form textarea,
+.login-right form input{
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: .25rem;
+
+    border: 1px solid rgb(224, 216, 216);
+}
