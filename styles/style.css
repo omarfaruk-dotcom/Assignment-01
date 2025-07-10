@@ -59,6 +59,10 @@ button {
     color: white;
 }
 
+button:hover {
+    background: rgb(0, 0, 255);
+}
+
 .nav-hero-section {
     display: flex;
     flex-direction: column;
@@ -275,6 +279,12 @@ main {
 }
 
 
+.login-right form input:hover,
+.login-right form textarea:hover {
+    border: 1px solid rgb(82, 82, 255);
+
+    background: rgb(255, 255, 255);
+}
 
 
 
