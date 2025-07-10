@@ -14,6 +14,7 @@ body {
     gap: 120px;
 
     overflow-x: hidden;
+
 }
 
 h1 {
@@ -329,6 +330,12 @@ footer {
 }
 
 .footer div a {
+    padding: 10px;
     text-decoration: none;
     color: rgb(114, 111, 111);
+}
+
+a:hover {
+    background: #dedddd;
+    border-radius: .5rem;
 }
